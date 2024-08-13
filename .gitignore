@@ -1,0 +1,7 @@
+
+acquire_project/target/
+dbt_packages/
+logs/
+acquire_project/secrets/
+.idea/
+dbt-venv/*

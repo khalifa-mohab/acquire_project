@@ -1,0 +1,16 @@
+sources:
+
+  - name: prism_acquire # source data (how you refer to it in dbt)
+    database: prism-insights # database to sync from
+    schema: prism_acquire # bigquery dataset
+    tables:
+      - name: adplatform_data
+      - name: funnelevents
+      - name: product_costs
+      - name: product_listprices
+      - name: product_returns
+      - name: productattributes
+      - name: sessions
+      - name: transactions
+      - name: transactionsanditems
+      - name: users
