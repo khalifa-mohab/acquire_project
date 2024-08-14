@@ -41,7 +41,7 @@ INNER JOIN --Join with session data
   sessions_data
 ON
   ad_data.date = sessions_data.date AND ad_data.platform = sessions_data.platform
-INNER JOIN -- Join with transaction data
+LEFT JOIN -- Join with transaction data
   transactions_data
 ON
   ad_data.date = transactions_data.date AND ad_data.platform = transactions_data.platform
